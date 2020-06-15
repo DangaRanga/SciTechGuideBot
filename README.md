@@ -1,2 +1,2 @@
 # SciTechGuideBot
-A chatbot for UWI's Faculty of Science and Technology 
+A twitter chatbot for UWI's Faculty of Science and Technology 
