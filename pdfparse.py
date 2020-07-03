@@ -1,6 +1,5 @@
 import os
 import PyPDF2
-import json
 
 def parse_page(filepath, page_index):
     pdf = 'fst_undergraduate_handbook_2019-2020.pdf'

@@ -1,6 +1,5 @@
 # Importing python related packages
 
-import sys
 import os
 import tweepy
 

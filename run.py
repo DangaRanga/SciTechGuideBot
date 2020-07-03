@@ -1,7 +1,5 @@
 # Python packages
 
-import os
-import sys
 
 # Importing user defined packages
 
