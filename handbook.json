@@ -1,0 +1,147 @@
+{
+    "departments": {
+        "micro_biology": {
+            "courses": {
+                "MICR1010": {
+                    "course_code": "MICR1010",
+                    "course_title": "Introductory Microbiology and Molecular Biology",
+                    "no_credits": 3,
+                    "level": 1,
+                    "semester_offered": [
+                        1,
+                        2
+                    ],
+                    "pre_requisites": {
+                        "CAPE": [
+                            "Chemistry"
+                        ],
+                        "CSEC": [
+                            "Biology"
+                        ],
+                        "Other": [
+                            "N/A"
+                        ]
+                    },
+                    "co_requisites":[
+                        "N/A"
+                        ],
+                    "course_description": [
+                        "This course will introduce students to examples of bacteria, archaea and yeasts",
+                        "and the habitats/environments in which they live; The important structural",
+                        "features of these microorganisms will be outlined; important applications of",
+                        "microbiology and microbial diseases will be discussed; The fine molecular",
+                        "structure of genetic material and the enzymic mechanisms used in replication",
+                        "gene expression and recombinant DNA technology will be introduced; A",
+                        "lecture/tutorial course of 39 hours."
+                    ],
+                    "evaluation": {
+                        "final_exam": {
+                            "duration": "2 hours",
+                            "grade": "60%",
+                            "exam_type": "written"
+                        },
+                        "course_work": {
+                            "no_incourse": 2,
+                            "in_course_grade": "20%",
+                            "no_labs":"N/A",
+                            "lab_grades":"N/A"
+                        }
+                    }
+                },
+                "MICR1011":{
+                    "course_code":"MICR1011",
+                    "course_title":"Practical Microbiology and Molecular Biology I",
+                    "no_credits":2,
+                    "level":1,
+                    "semester_offered":[
+                        1,
+                        2
+                    ],
+                    "pre_requisites":{
+                        "CAPE":[
+                            "Chemistry"
+                            ],
+                        "CSEC":[
+                            "Biology"
+                            ],
+                        "Other":[
+                            "N/A"
+                        ]
+                    },
+                    "co_requisites":[
+                        "MICR1010"
+                        ],
+                    "course_description":[
+                        "Through a series of experiments students will isolate individual microorganisms",
+                        "and culture pure colonies; The effects of differing growth conditions on",
+                        "microorganisms will be demonstrated as will methods of killing unwanted microorganisms;",
+                        "Methods of quantifying microorganisms will be compared and discussed;",
+                        "A sample of DNA will be extracted and digested with restriction endonucleases,",
+                        "and the fragments obtained separated by gel electrophoresis;",
+                        "A laboratory course of 48 hours."
+                    ],
+                    "evaluation":{
+                        "final_exam":{
+                            "duration":"2 hours",
+                            "grade":"40%"
+                        },
+                        "course_work":{
+                            "no_incourses":0,
+                            "incourse_grade":"N/A",
+                            "no_labs":10,
+                            "lab_grade":"6%"
+                        }
+                    }
+                },
+                "BIOC1020":{
+                    "course_code":"BIOC1020",
+                    "course_title":"Cellular Biochemistry",
+                    "no_credits":3,
+                    "level":1,
+                    "semester_offered":[
+                        1,
+                        2
+                    ],
+                    "pre_requisites":{
+                        "CAPE":[
+                            "Chemistry"
+                            ],
+                        "CSEC":[
+                            "Biology"
+                            ],
+                        "Other":[
+                            "N/A"
+                        ]
+                    },
+                    "co_requisites":[
+                        "None"
+                        ],
+                    "course_description":[
+                        "Cellular Organisation: The ultrastructures and major physiological and biochemical functions of subcellular organelles.",
+                        "Cellular Reproduction: The major molecular events of organisms undergoing mitosis and meiosis; cell cycles and their regulation",
+                        "Biomolecular Structure and Functions:Mono-di-oligo-and polysaccharides; amino acids, peptides and proteins; lipids; nucleotides and nucleic acids;",
+                        "Biological Membranes:Composition of membranes; structures and functions of the major types of membrane proteins.",
+                        "Movement of substances across cell membrane; membrane potentials and excitable membranes.",
+                        "Extracellular Matrices: Proteins and proteoglycans, cartilage, bone and biomineralisation.",
+                        "Enzyme Activity: Mechanisms of enzyme catalysis; an introduction to enzyme kinetics.",
+                        "Metabolism: Biochemical oxidation and reduction reactions; major metabolic pathways and their regulation.",
+                        "Cell Communication: Basic elements of cell signalling systems.",
+                        "A lecture/tutorial course of 39 hours".
+                    ],
+                    "evaluation":{
+                        "final_exam":{
+                            "duration":"2 hours",
+                            "grade":"60%"
+                        },
+                        "course_work":{
+                            "no_incourses":2,
+                            "incourse_grade":"20%",
+                            "no_labs":10,
+                            "lab_grade":"6%"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
