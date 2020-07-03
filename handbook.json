@@ -23,7 +23,7 @@
                         ]
                     },
                     "co_requisites":[
-                        "N/A"
+                        "None"
                         ],
                     "course_description": [
                         "This course will introduce students to examples of bacteria, archaea and yeasts",
@@ -43,7 +43,7 @@
                         "course_work": {
                             "no_incourse": 2,
                             "in_course_grade": "20%",
-                            "no_labs":"N/A",
+                            "no_labs":0,
                             "lab_grades":"N/A"
                         }
                     }
@@ -126,7 +126,7 @@
                         "Enzyme Activity: Mechanisms of enzyme catalysis; an introduction to enzyme kinetics.",
                         "Metabolism: Biochemical oxidation and reduction reactions; major metabolic pathways and their regulation.",
                         "Cell Communication: Basic elements of cell signalling systems.",
-                        "A lecture/tutorial course of 39 hours".
+                        "A lecture/tutorial course of 39 hours"
                     ],
                     "evaluation":{
                         "final_exam":{
