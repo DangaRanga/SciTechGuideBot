@@ -6,7 +6,7 @@ def parse_page(filepath, page_index):
     with open(os.path.join(filepath, pdf),'rb') as handbook:
         read_handbook = PyPDF2.PdfFileReader(handbook)
         page_obj = read_handbook.getPage(page_index)
-        page_content = page.extractText()
+        page_content = page_obj.extractText()
 
     return f"Page no. {page_index-3} {page_content}"
 
