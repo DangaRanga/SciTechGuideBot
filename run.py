@@ -9,8 +9,6 @@ import config
 # Retrieve api object
 api_obj = config.api_connect()
 
-test
-
 
 
 
