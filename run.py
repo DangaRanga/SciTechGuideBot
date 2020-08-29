@@ -1,8 +1,3 @@
-# Python packages
-from datetime import datetime, timezone
-import time
-import collections
-
 # Importing user defined packages
 
 from app import config, retweet
@@ -11,6 +6,6 @@ from app import config, retweet
 api_obj = config.api_connect()
 
 
-
-while True:
-   retweet.retweet_tweet(api_obj)
+if __name__=='__main__':
+   while True:
+      retweet.retweet_tweet(api_obj)
