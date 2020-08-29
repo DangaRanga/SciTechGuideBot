@@ -1,0 +1,681 @@
+{
+    "departments": {
+        "biochemistry": {
+            "courses": {
+                "MICR1010": {
+                    "course_code": "MICR1010",
+                    "course_title": "Introductory Microbiology and Molecular Biology",
+                    "no_credits": 3,
+                    "level": 1,
+                    "semester_offered": [
+                        1,
+                        2
+                    ],
+                    "pre_requisites": {
+                        "CAPE": [
+                            "Chemistry"
+                        ],
+                        "CSEC": [
+                            "Biology"
+                        ],
+                        "Level 1":{
+                            "N/A":"None"
+                        },
+                        "Level 2":{
+                            "N/A":"None"
+                        },
+                        "Other": [
+                            "N/A"
+                        ]
+                    },
+                    "co_requisites":[
+                        "None"
+                        ],
+                    "course_description": [
+                        "This course will introduce students to examples of bacteria, archaea and yeasts",
+                        "and the habitats/environments in which they live; The important structural",
+                        "features of these microorganisms will be outlined; important applications of",
+                        "microbiology and microbial diseases will be discussed; The fine molecular",
+                        "structure of genetic material and the enzymic mechanisms used in replication",
+                        "gene expression and recombinant DNA technology will be introduced; A",
+                        "lecture/tutorial course of 39 hours."
+                    ],
+                    "evaluation": {
+                        "final_exam": {
+                            "duration": "2 hours",
+                            "grade": "60%",
+                            "exam_type": "written"
+                        },
+                        "course_work": {
+                            "no_incourse": 2,
+                            "in_course_grade": "20%",
+                            "no_labs":0,
+                            "lab_grades":"N/A"
+                        }
+                    }
+                },
+                "MICR1011":{
+                    "course_code":"MICR1011",
+                    "course_title":"Practical Microbiology and Molecular Biology I",
+                    "no_credits":2,
+                    "level":1,
+                    "semester_offered":[
+                        1,
+                        2
+                    ],
+                    "pre_requisites":{
+                        "CAPE":[
+                            "Chemistry"
+                            ],
+                        "CSEC":[
+                            "Biology"
+                            ],
+                        "Level 1":{
+                            "N/A":"None"
+                        },
+                        "Level 2":{
+                            "N/A":"None"
+                        },
+                        "Other":[
+                            "N/A"
+                        ]
+                    },
+                    "co_requisites":[
+                        "MICR1010"
+                        ],
+                    "course_description":[
+                        "Through a series of experiments students will isolate individual microorganisms",
+                        "and culture pure colonies; The effects of differing growth conditions on",
+                        "microorganisms will be demonstrated as will methods of killing unwanted microorganisms;",
+                        "Methods of quantifying microorganisms will be compared and discussed;",
+                        "A sample of DNA will be extracted and digested with restriction endonucleases,",
+                        "and the fragments obtained separated by gel electrophoresis;",
+                        "A laboratory course of 48 hours."
+                    ],
+                    "evaluation":{
+                        "final_exam":{
+                            "duration":"2 hours",
+                            "grade":"40%"
+                        },
+                        "course_work":{
+                            "no_incourses":0,
+                            "incourse_grade":"N/A",
+                            "no_labs":10,
+                            "lab_grade":"6%"
+                        }
+                    }
+                },
+                "BIOC1020":{
+                    "course_code":"BIOC1020",
+                    "course_title":"Cellular Biochemistry",
+                    "no_credits":3,
+                    "level":1,
+                    "semester_offered":[
+                        1,
+                        2
+                    ],
+                    "pre_requisites":{
+                        "CAPE":[
+                            "Chemistry"
+                            ],
+                        "CSEC":[
+                            "Biology"
+                            ],
+                        "Level 1":{
+                            "N/A":"None"
+                        },
+                        "Level 2":{
+                            "N/A":"None"
+                        },
+                        "Other":[
+                            "N/A"
+                        ]
+                    },
+                    "co_requisites":[
+                        "None"
+                        ],
+                    "course_description":[
+                        "Cellular Organisation: The ultrastructures and major physiological and biochemical functions of subcellular organelles.",
+                        "Cellular Reproduction: The major molecular events of organisms undergoing mitosis and meiosis; cell cycles and their regulation",
+                        "Biomolecular Structure and Functions:Mono-di-oligo-and polysaccharides; amino acids, peptides and proteins; lipids; nucleotides and nucleic acids;",
+                        "Biological Membranes:Composition of membranes; structures and functions of the major types of membrane proteins.",
+                        "Movement of substances across cell membrane; membrane potentials and excitable membranes.",
+                        "Extracellular Matrices: Proteins and proteoglycans, cartilage, bone and biomineralisation.",
+                        "Enzyme Activity: Mechanisms of enzyme catalysis; an introduction to enzyme kinetics.",
+                        "Metabolism: Biochemical oxidation and reduction reactions; major metabolic pathways and their regulation.",
+                        "Cell Communication: Basic elements of cell signalling systems.",
+                        "A lecture/tutorial course of 39 hours"
+                    ],
+                    "evaluation":{
+                        "final_exam":{
+                            "duration":"2 hours",
+                            "grade":"60%"
+                        },
+                        "course_work":{
+                            "no_incourses":2,
+                            "incourse_grade":"20%",
+                            "no_labs":0,
+                            "lab_grade":"N/A"
+                        }
+                    }
+                },
+                "BIOC1021":{
+                    "course_code":"BIOC1021",
+                    "course_title":"Practical Biochemistry I",
+                    "no_credits":2,
+                    "level":1,
+                    "semester_offered":[
+                        1,
+                        2
+                    ],
+                    "pre_requisites":{
+                        "CAPE":[
+                            "Chemistry"
+                            ],
+                        "CSEC":[
+                            "Biology"
+                            ],
+                        "Level 1":{
+                            "N/A":"None"
+                        },
+                        "Level 2":{
+                            "N/A":"None"
+                        },
+                        "Other":[
+                            "N/A"
+                        ]
+                    },
+                    "co_requisites":[
+                        "BIOC1020"
+                        ],
+                    "course_description":[
+                        "This course will introduce students to the proper use and operational limitations of the",
+                        "instruments commonly used in biochemistry laboratories by employing them in a ",
+                        "series of practical experiments under expert guidance; Students will also become familiar",
+                        "with the analysis of the data generated by the experiments and correct methods for reporting the data and interpreted ",
+                        "results; A laboratory course of 48 hours."
+                    ],
+                    "evaluation":{
+                        "final_exam":{
+                            "duration":"2 hours",
+                            "grade":"40%"
+                        },
+                        "course_work":{
+                            "no_incourses":0,
+                            "incourse_grade":"N/A",
+                            "no_labs":10,
+                            "lab_grade":"6%"
+                        }
+                    }
+                },
+                "BIOC2014":{
+                    "course_code":"BIOC2014",
+                    "course_title":"Bioenergetics and Cell Metabolism",
+                    "no_credits":8,
+                    "level":2,
+                    "semester_offered":[
+                        1
+                    ],
+                    "pre_requisites":{
+                        "CAPE":[
+                            "Chemistry"
+                            ],
+                        "CSEC":[
+                            "Biology"
+                            ],
+                        "Level 1":{
+                            "BIOC1020":"Cellular Biochemistry",
+                            "BIOC1021":"Practical Biochemistry I",
+                            "MICR1010":"Introductory Microbiology and Molecular Biology",
+                            "MICR1011":"Practical Microbiology and Molecular Biology",
+                            "CHEM1901":"Introductory Chemistry A",
+                            "CHEM1902":"Introductory Chemistry B"
+                        },
+                        "Level 2":{
+                            "N/A":"None"
+                        },
+                        "Other":[
+                            "N/A"
+                        ]
+                    },
+                    "co_requisites":[
+                        "N/A"
+                        ],
+                    "course_description":[
+                        "Basic mammalian and plant physiology; Mitochondrial and chloroplast ultrastructure;",
+                        "Biochemical bonding and thermal stability of molecules and membranes;",
+                        "Mitochondrial acetyl-CoA formation and utilization. ",
+                        "The TCA cycle and the glyoxylate pathway. ",
+                        "The major biosynthetic, intermediary and degradative pathways.",
+                        "Nitrogen fixation; Redox reactions and the mitochondrial electron transport chain; ",
+                        "the chemiosmotics mechanism; oxygenicand anoxygenic photosynthesis.",
+                        "The bioenergetics of photosynthesis reactions and of the chemoautotrophs.",
+                        "Transport across membranes; the mechanisms and bioenergetics.",
+                        "Induction and repression; auxotrophic mutants and the elucidation of metabolic pathways."
+                    ],
+                    "evaluation":{
+                        "final_exam":{
+                            "duration":"2 hours each",
+                            "grade":"60%",
+                            "no_papers":2,
+                            "type":"MCQ and Written"
+                        },
+                        "course_work":{
+                            "no_incourses":2,
+                            "incourse_grade":"20%",
+                            "no_labs":10,
+                            "lab_grade":"20%"
+                        }
+                    }
+                },
+                "MICR2211":{
+                    "course_code":"MICR2211",
+                    "course_title":"Microbiology",
+                    "no_credits":4,
+                    "level":2,
+                    "semester_offered":[
+                        2
+                    ],
+                    "pre_requisites":{
+                        "CAPE":[
+                            "Chemistry"
+                            ],
+                        "CSEC":[
+                            "Biology"
+                            ],
+                        "Level 1":{
+                            "BIOC1020":"Cellular Biochemistry",
+                            "MICR1010":"Introductory Microbiology and Molecular Biology",
+                            "MICR1011":"Practical Microbiology and Molecular Biology",
+                            "CHEM1901":"Introductory Chemistry A",
+                            "CHEM1902":"Introductory Chemistry B"
+                        },
+                        "Level 2":{
+                            "N/A":"None"
+                        },
+                        "Other":[
+                            "N/A"
+                        ]
+                    },
+                    "co_requisites":[
+                        "BIOC2014"
+                        ],
+                    "course_description":[
+                        "The purpose and methods of microbial taxonomy and molecular systematics;",
+                        "The identification of organisms obtained in culture and the construction of",
+                        "phylogenetic trees; The major phylotypes of Bacteria and Archaea will each be",
+                        "discussed with respect to their habitats, physiology and cellular structures;",
+                        "Roles in natural ecosystems, applications and other outstanding features will",
+                        "be discussed in instances where particular organisms provide useful examples; "
+                    ],
+                    "evaluation":{
+                        "final_exam":{
+                            "duration":"2 hours",
+                            "grade":"60%",
+                            "no_papers":1,
+                            "type":"Written"
+                        },
+                        "course_work":{
+                            "no_incourses":2,
+                            "incourse_grade":"20%",
+                            "no_labs":10,
+                            "lab_grade":"20%"
+                        }
+                    }
+                },
+                "BIOL2312":{
+                    "course_code":"BIOL2312",
+                    "course_title":"Molecular Biology I",
+                    "no_credits":4,
+                    "level":2,
+                    "semester_offered":[
+                        2
+                    ],
+                    "pre_requisites":{
+                        "CAPE":[
+                            "Chemistry"
+                            ],
+                        "CSEC":[
+                            "Biology"
+                            ],
+                        "Level 1":{
+                            "BIOC1020":"Cellular Biochemistry",
+                            "MICR1010":"Introductory Microbiology and Molecular Biology",
+                            "MICR1011":"Practical Microbiology and Molecular Biology",
+                            "CHEM1901":"Introductory Chemistry A",
+                            "CHEM1902":"Introductory Chemistry B"
+                        },
+                        "Level 2":{
+                            "N/A":"None"
+                        },
+                        "Other":[
+                            "N/A"
+                        ]
+                    },
+                    "co_requisites":[
+                        "BIOC2014"
+                        ],
+                    "course_description":[
+                        "Nucleic acid structure and function; Genome organization in Eukaryotes,",
+                        "Bacteria, Yeast and Viruses. Methods of studying nucleic acids: DNA",
+                        "sequencing, DNA hybridization, cloning and analysis, restriction mapping, PCR.",
+                        "Recombinant DNA technology. Replication of DNA. Biology and genetics of",
+                        "Roles in natural ecosystems, applications and other outstanding features will",
+                        "bacteriophage lambda. RNA and protein synthesis. Protein trafficking."
+                    ],
+                    "evaluation":{
+                        "final_exam":{
+                            "duration":"2 hours",
+                            "grade":"60%",
+                            "no_papers":1,
+                            "type":"Written"
+                        },
+                        "course_work":{
+                            "no_incourses":2,
+                            "incourse_grade":"20%",
+                            "no_labs":10,
+                            "lab_grade":"20%"
+                        }
+                    }
+                },
+                "BIOC3011":{
+                    "course_code":"BIOC3011",
+                    "course_title":"Advanced Biochemistry",
+                    "no_credits":4,
+                    "level":3,
+                    "semester_offered":[
+                        2
+                    ],
+                    "pre_requisites":{
+                        "CAPE":[
+                            "Chemistry"
+                            ],
+                        "CSEC":[
+                            "Biology"
+                            ],
+                        "Level 1":{
+                            "BIOC1020":"Cellular Biochemistry",
+                            "MICR1010":"Introductory Microbiology and Molecular Biology",
+                            "MICR1011":"Practical Microbiology and Molecular Biology",
+                            "CHEM1901":"Introductory Chemistry A",
+                            "CHEM1902":"Introductory Chemistry B"
+                        },
+                        "Level 2":{
+                            "BIOC2014":"Bioenergetics and Cell Metabolism"
+                        },
+                        "Other":[
+                            "N/A"
+                        ]
+                    },
+                    "co_requisites":[
+                        "BIOC2014"
+                        ],
+                    "course_description":[
+                        "The role of cell membrane in the life of the cell; Introduction to Proteomics:",
+                        "Ligand binding, Protein folding, Protein-protein interactions; Cell signalling:",
+                        "Signal transduction. Protein crystallization studies and the photosystems;",
+                        "Molecular biology of photosynthesis: Introduction to the large complex",
+                        "secondary metabolites of plants; Toxins from plants; Overview of plant",
+                        "hormones; Post-harvest physiology; A practical courseof 36 hours."
+                    ],
+                    "evaluation":{
+                        "final_exam":{
+                            "duration":"2 hours",
+                            "grade":"60%",
+                            "no_papers":1,
+                            "type":"Written"
+                        },
+                        "course_work":{
+                            "no_incourses":2,
+                            "incourse_grade":"20%",
+                            "no_labs":9,
+                            "lab_grade":"20%"
+                        }
+                    }
+                },
+                "BIOC3013":{
+                    "course_code":"BIOC3013",
+                    "course_title":"Biochemical Phisology",
+                    "no_credits":4,
+                    "level":3,
+                    "semester_offered":[
+                        1
+                    ],
+                    "pre_requisites":{
+                        "CAPE":[
+                            "Chemistry"
+                            ],
+                        "CSEC":[
+                            "Biology"
+                            ],
+                        "Level 1":{
+                            "BIOC1020":"Cellular Biochemistry",
+                            "MICR1010":"Introductory Microbiology and Molecular Biology",
+                            "MICR1011":"Practical Microbiology and Molecular Biology",
+                            "CHEM1901":"Introductory Chemistry A",
+                            "CHEM1902":"Introductory Chemistry B"
+                        },
+                        "Level 2":{
+                            "BIOL2312":"Microbiology 1",
+                            "BIOC2014":"Bioenergetics and Cell Metabolism"
+                        },
+                        "Other":[
+                            "N/A"
+                        ]
+                    },
+                    "co_requisites":[
+                        "N/A"
+                        ],
+                    "course_description":[
+                        "Cellular signalling; Endocrinology; The regulation and integration of the",
+                        "metabolic pathways for carbohydrate, lipid and protein metabolism; Organ",
+                        "specialization, macro-nutrient and micro-nutrient nutrition, digestion and",
+                        "body; Energy expenditure and requirements during feasting, fasting, exercise;",
+                        "Nutrient deficiencies; Malnutrition and its sequelae; Obesity; Free radical",
+                        "formation; Antioxidants; Clinical chemistry tests; A practical course of 36 hours."
+                    ],
+                    "evaluation":{
+                        "final_exam":{
+                            "duration":"2 hours",
+                            "grade":"60%",
+                            "no_papers":1,
+                            "type":"Written"
+                        },
+                        "course_work":{
+                            "no_incourses":2,
+                            "incourse_grade":"20%",
+                            "no_labs":9,
+                            "lab_grade":"20%"
+                        }
+                    }
+                },
+                "BIOC3413":{
+                    "course_code":"BIOC3413",
+                    "course_title":"Project",
+                    "no_credits":4,
+                    "level":3,
+                    "semester_offered":[
+                        1,
+                        2
+                    ],
+                    "pre_requisites":{
+                        "CAPE":[
+                            "Chemistry"
+                            ],
+                        "CSEC":[
+                            "Biology"
+                            ],
+                        "Level 1":{
+                            "BIOC1020":"Cellular Biochemistry",
+                            "MICR1010":"Introductory Microbiology and Molecular Biology",
+                            "MICR1011":"Practical Microbiology and Molecular Biology",
+                            "CHEM1901":"Introductory Chemistry A",
+                            "CHEM1902":"Introductory Chemistry B"
+                        },
+                        "Level 2":{
+                            "BIOL2312":"Microbiology 1",
+                            "BIOC2014":"Bioenergetics and Cell Metabolism",
+                            "MICR2211":"Microbiology"
+                        },
+                        "Other":[
+                            "N/A"
+                        ]
+                    },
+                    "co_requisites":[
+                        "MICR3213",
+                        "BIOC3011",
+                        "BIOL3312",
+                        "BIOL3313",
+                        "MICR3214",
+                        "BIOC3013",
+                        "BIOT3113",
+                        "BIOT3114",
+                        "BIOT3116 or BIOC3014"
+                        ],
+                    "course_description":[
+                        "Cellular signalling; Endocrinology; The regulation and integration of the",
+                        "metabolic pathways for carbohydrate, lipid and protein metabolism; Organ",
+                        "specialization, macro-nutrient and micro-nutrient nutrition, digestion and",
+                        "body; Energy expenditure and requirements during feasting, fasting, exercise;",
+                        "Nutrient deficiencies; Malnutrition and its sequelae; Obesity; Free radical",
+                        "formation; Antioxidants; Clinical chemistry tests; A practical course of 36 hours."
+                    ],
+                    "evaluation":{
+                        "final_exam":{
+                            "duration":"N/A",
+                            "grade":"N/A",
+                            "no_papers":0,
+                            "type":"N/A"
+                        },
+                        "course_work":{
+                            "project_report":"60%",
+                            "seminar_presentation":"40%"
+                        }
+                    },
+                    "important_note":[
+                        "This course is available only to final year students majoring in Biochemistry,",
+                        "Biotechnology, Microbiology or Molecular Biology.",
+                        "Entry will be dependent on the student’s academic performance to date and available space."
+                    ]
+                },
+                "BIOL3312":{
+                    "course_code":"BIOL3312",
+                    "course_title":"Molecular Biology II",
+                    "no_credits":4,
+                    "level":3,
+                    "semester_offered":[
+                        1
+                    ],
+                    "pre_requisites":{
+                        "CAPE":[
+                            "Chemistry"
+                            ],
+                        "CSEC":[
+                            "Biology"
+                            ],
+                        "Level 1":{
+                            "BIOC1020":"Cellular Biochemistry",
+                            "MICR1010":"Introductory Microbiology and Molecular Biology",
+                            "MICR1011":"Practical Microbiology and Molecular Biology",
+                            "CHEM1901":"Introductory Chemistry A",
+                            "CHEM1902":"Introductory Chemistry B"
+                        },
+                        "Level 2":{
+                            "BIOL2312":"Microbiology I",
+                            "BIOC2014":"Bioenergetics and Cell Metabolism"
+                        },
+                        "Other":[
+                            "N/A"
+                        ]
+                    },
+                    "co_requisites":[
+                        "N/A"
+                        ],
+                    "course_description":[
+                        "Bacteria, eukaryotic and phage genes, genetic maps and mapping, plasmids,",
+                        "transposons; Genetic recombination, genetic exchange, models of ",
+                        "recombination; The arrangement of genes, introns, exons, gene clustering,",
+                        "mitochondria and chloroplasts; Mutations and mutagens, base and nucleotide",
+                        "transposon mutagenesis; DNA repair mechanisms, excision repair, and SOS",
+                        "repair; Expression and regulation of eukaryotic and prokaryotic genes, control",
+                        "of transcription-operons in bacteria, control of transcription-eukaryotic RNA polymerase",
+                        "eukaryotic, transcription factors, DNA binding proteins, zinc-finger",
+                        "motif. RNA interference; A practical course of 36 hours."
+                    ],
+                    "evaluation":{
+                        "final_exam":{
+                            "duration":"2 hours",
+                            "grade":"60%",
+                            "no_papers":1,
+                            "type":"Written"
+                        },
+                        "course_work":{
+                            "no_incourses":2,
+                            "incourse_grade":"20%",
+                            "no_labs":9,
+                            "lab_grade":"20%"
+                        }
+                    }
+                },
+                "BIOL3313":{
+                    "course_code":"BIOL3313",
+                    "course_title":"Human Molecular Biology",
+                    "no_credits":4,
+                    "level":3,
+                    "semester_offered":[
+                        2
+                    ],
+                    "pre_requisites":{
+                        "CAPE":[
+                            "Chemistry"
+                            ],
+                        "CSEC":[
+                            "Biology"
+                            ],
+                        "Level 1":{
+                            "BIOC1020":"Cellular Biochemistry",
+                            "MICR1010":"Introductory Microbiology and Molecular Biology",
+                            "MICR1011":"Practical Microbiology and Molecular Biology",
+                            "CHEM1901":"Introductory Chemistry A",
+                            "CHEM1902":"Introductory Chemistry B"
+                        },
+                        "Level 2":{
+                            "BIOL2312":"Microbiology I",
+                            "BIOC2014":"Bioenergetics and Cell Metabolism"
+                        },
+                        "Other":[
+                            "N/A"
+                        ]
+                    },
+                    "co_requisites":[
+                        "BIOL3312"
+                        ],
+                    "course_description":[
+                        "The molecular basis of the immune response; The biological basis of",
+                        "the HIV-AIDS epidemic; The molecular basis of cancer; Mutations and the role of",
+                        "genetic predisposition in the etiology of both monogenic and multifactorial",
+                        "diseases; Haemoglobinopathies; in-born errors of metabolism. How these",
+                        "genes are inherited and their frequencies among different populations;",
+                        "The generated and the practical and ethical implications of",
+                        "this knowledge; The projected role of gene therapy in treatment of genetic diseases;",
+                        "Pharmacogenomics; A practical course of 36 hours."
+                    ],
+                    "evaluation":{
+                        "final_exam":{
+                            "duration":"2 hours",
+                            "grade":"60%",
+                            "no_papers":1,
+                            "type":"Written"
+                        },
+                        "course_work":{
+                            "no_incourses":2,
+                            "incourse_grade":"20%",
+                            "no_labs":9,
+                            "lab_grade":"20%"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
