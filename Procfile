@@ -1,1 +1,2 @@
-worker:run.py
+worker:./run.py
+web:./server.py
