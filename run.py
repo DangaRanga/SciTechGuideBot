@@ -12,6 +12,5 @@ api_obj = config.api_connect()
 
 
 
-if __name__ == '__main__':
-   while True:
-      retweet.retweet_tweet(api_obj)
+while True:
+   retweet.retweet_tweet(api_obj)
