@@ -1,2 +1,1 @@
-worker:./run.py
-web:./server.py
+worker:python ./run.py
