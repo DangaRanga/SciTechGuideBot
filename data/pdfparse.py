@@ -26,7 +26,7 @@ if __name__ == '__main__':
     # Create file to store raw data
     with open('raw_handbook.txt','w+') as raw:
         # Parse Biochem
-        for page in range(13,27):
+        for page_no in range(13,27):
             data = parse_page('C:\\Users\\Andrew\\Desktop\\SciTechGuideBot',page)
             raw.write(data)
 
