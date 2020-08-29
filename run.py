@@ -1,18 +1,17 @@
 # Python packages
-
+from datetime import datetime, timezone
+import time
+import collections
 
 # Importing user defined packages
 
-import config
-
+from app import config, retweet
 
 # Retrieve api object
 api_obj = config.api_connect()
 
 
 
-
-
-
 if __name__ == '__main__':
-   pass
+   while True:
+      retweet.retweet_tweet(api_obj)
